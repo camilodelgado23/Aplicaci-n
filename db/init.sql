@@ -1,6 +1,5 @@
 create database almacen;
 use almacen; 
-
 create table usuarios (
   nombre varchar(50),
   email varchar(50),
@@ -29,7 +28,7 @@ create table ordenes (
 INSERT INTO usuarios 
   (nombre, email, usuario, password)
 VALUES
-  ('juan', 'juan@email.com', 'juan', 'juan');
+  ('camilo', 'camilo@gmail', 'camilo', '1234');
 
   
   
