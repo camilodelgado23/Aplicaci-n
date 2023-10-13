@@ -52,7 +52,7 @@
     </thead>
     <tbody>
     <?php
-        $servurl="http://192.168.100.2:3003/ordenes";
+        $servurl="ordenes:3003/ordenes";
         $curl=curl_init($servurl);
 
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
